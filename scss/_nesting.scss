@@ -1,0 +1,86 @@
+@include desktop {
+    nav {
+        width: 600px;
+        height: 60px;
+        margin: 0 auto;
+        direction: rtl;
+
+        ul {
+            list-style-type: none;
+            display: flex;
+            justify-content: space-evenly;
+
+            a {
+                display: block;
+                text-decoration: none;
+                font-family: $ff;
+                font-size: 1.5rem;
+                line-height: 1.6;
+                color: white;
+                width: max-content;
+                height: 40px;
+                border: 0.5px solid rgb(0, 0, 0);
+                border-radius: 15px;
+                text-align: center;
+                margin-top: 20px;
+                padding-right: 20px;
+                padding-left: 20px;
+
+
+                &:hover {
+                    background-color: white;
+                    color: black;
+                    transition: all 0.6s;
+                }
+            }
+        }
+    }
+}
+
+
+
+@include tablet {
+
+    nav {
+        display: block;
+        position: absolute;
+        width: 100%;
+
+        ul {
+            margin-top: 81px;
+            display: none;
+            margin-left: 0;
+
+        }
+
+        li {
+            display: block;
+            background-color: #666;
+            line-height: 2.4;
+        }
+
+        a {
+            display: block;
+            border-bottom: 1px solid rgb(253, 253, 253);
+            font-family: $ff;
+            text-decoration: none;
+            color: rgb(253, 253, 253);
+            font-size: 25px;
+            line-height: 1.6;
+            text-align: center;
+            background-color: rgb(0, 0, 0);
+
+
+            &:hover {
+                background-color: white;
+                color: black;
+                transition: all 0.6s;
+            }
+
+        }
+    }
+
+
+
+
+}

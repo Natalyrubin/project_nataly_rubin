@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+$bgcB: rgb(0, 0, 0);
+$bgcG: rgb(225, 224, 235);
+$ff: tahoma;
+$ffd: "Dancing script";
+$width: 100vw;
+
+html {
+    scroll-behavior: smooth;
+}
+
+@mixin desktop {
+    @media (min-width:925px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width:924px) {
+        @content;
+    }
+}

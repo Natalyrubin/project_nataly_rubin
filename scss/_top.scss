@@ -1,0 +1,74 @@
+.top {
+    display: block;
+    width: 100%;
+    height: max-content;
+    background-color: rgb(255, 255, 255);
+}
+
+.topIntro {
+    width: 100%;
+    height: max-content;
+    background-image: url(../img/bgc.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: block;
+}
+
+#topParag {
+    padding-bottom: 10vh;
+}
+
+.topIcons {
+    display: block;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 2px 2px 2px 2px rgba(78, 89, 104, 0.555);
+}
+
+
+.img_r {
+    width: 70px;
+    height: 70px;
+}
+
+
+
+@include desktop {
+    .topIcons {
+        height: 150px;
+        padding-top: 35px;
+        background-color: white;
+    }
+
+    .divImg {
+        display: flex;
+        justify-content: space-around;
+        margin-left: 200px;
+        margin-right: 200px;
+    }
+
+    .img_r {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+}
+
+@include tablet {
+    .topIcons {
+        height: 240px;
+        background-color: white;
+    }
+
+    .divImg {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 100px);
+        gap: 20px;
+    }
+
+    .img_r {
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,346 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* ------------------ */
+
+
+header {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    border-radius: 0 0 10px 10px;
+    position: sticky;
+    top: 0;
+    box-shadow: 2px 2px 2px 2px rgba(78, 89, 104, 0.555);
+}
+
+
+
+@media (max-width: 924px) {
+
+    header #fb,
+    header #insta {
+        display: none;
+    }
+
+
+    header .logo {
+        position: fixed;
+        margin-left: 30px;
+        z-index: 3;
+    }
+
+    header #wapp {
+        position: fixed;
+        bottom: 20px;
+        z-index: 5;
+    }
+}
+
+header img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.icons {
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+div a img {
+    transition: all 0.5s ease-in-out;
+}
+
+div a img:hover {
+    transform: scale(1.2);
+}
+
+.logo {
+    margin-top: 20px;
+    margin-right: 40px;
+}
+
+
+@media (min-width: 925px) {
+    nav {
+        width: 600px;
+        height: 60px;
+        margin: 0 auto;
+        direction: rtl;
+    }
+
+}
+
+@media (max-width: 924px) {
+    nav {
+        display: block;
+        position: absolute;
+        width: 100%;
+    }
+
+
+}
+
+
+/* -------------------*/
+
+
+
+.logos {
+
+    display: flex;
+    justify-content: space-around;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 35px;
+}
+
+a {
+    color: black;
+}
+
+
+
+@media (min-width:925px) {
+
+
+    .top {
+        direction: rtl;
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        background-color: rgb(232, 232, 232);
+    }
+
+    .img_r {
+        width: 70px;
+        height: 70px;
+    }
+
+
+    .projectSection {
+        width: 50%;
+        direction: ltr;
+        height: 100%;
+    }
+
+
+    .imgProject {
+        width: 50%;
+        height: 100%;
+    }
+
+
+    #imgP {
+        display: block;
+        width: 300px;
+        height: 300px;
+        box-shadow: 0px 0px 40px #00000066;
+        border-radius: 20px;
+        margin-top: 10vh;
+        margin-right: 5vw;
+    }
+
+
+    h1 {
+        text-align: l;
+        font-family: tahoma;
+        margin: auto;
+        vertical-align: middle;
+        padding-top: 15vh;
+    }
+
+    p {
+        text-align: left;
+        font-family: tahoma;
+        margin: 0;
+        vertical-align: middle;
+        padding-top: 25px;
+        width: 50%;
+    }
+
+
+
+    .topButton {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 75px);
+        gap: 20px;
+        width: 300px;
+        justify-content: flex-end;
+    }
+
+
+    #button-div {
+        margin: auto;
+        margin-top: 35px;
+        text-decoration: none;
+        text-align: center;
+        font-family: tahoma;
+        width: max-content;
+        border-style: solid;
+        border-color: rgb(157, 206, 252);
+        background-color: rgb(157, 206, 252);
+        padding: 8px;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: white;
+            border-style: solid;
+            border-color: rgb(157, 206, 252);
+            color: black;
+            transition: all 0.2s;
+        }
+
+    }
+}
+
+
+
+@media (max-width:925px) {
+
+    .logos {
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 60px);
+        gap: 20px;
+        margin: auto;
+    }
+
+    .img_r {
+        width: 50px;
+        height: 50px;
+    }
+
+
+    .top {
+        background-color: rgb(232, 232, 232);
+    }
+
+
+    h1 {
+        text-align: center;
+        font-family: tahoma;
+        margin: auto;
+        vertical-align: middle;
+        padding-top: 20px;
+    }
+
+    p {
+        text-align: center;
+        font-family: tahoma;
+        margin: auto;
+        vertical-align: middle;
+        padding-top: 25px;
+        width: 80%;
+    }
+
+
+    .projectSection {
+        width: 100%;
+
+    }
+
+    .topButton {
+        display: flex;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(1, 75px);
+        width: 300px;
+        justify-content: space-around;
+        margin: auto;
+    }
+
+
+    #button-div {
+        margin: auto;
+        margin-top: 35px;
+        text-decoration: none;
+        text-align: center;
+        font-family: tahoma;
+        width: max-content;
+        border-style: solid;
+        border-color: rgb(157, 206, 252);
+        background-color: rgb(157, 206, 252);
+        padding: 8px;
+        border-radius: 20px;
+
+        &:hover {
+            background-color: white;
+            border-style: solid;
+            border-color: rgb(157, 206, 252);
+            color: black;
+            transition: all 0.2s;
+        }
+
+    }
+
+
+    .imgProject {
+        padding-bottom: 25px;
+    }
+
+    #imgP {
+        display: block;
+        width: 250px;
+        height: 250px;
+        box-shadow: 0px 0px 40px #00000066;
+        border-radius: 20px;
+        margin: auto;
+
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.contactFooter {
+    display: block;
+    width: 100%;
+    height: 80px;
+    background-color: rgb(0, 0, 0);
+}
+
+.footerImg {
+    display: flex;
+    justify-content: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+
+
+.imgF {
+    width: 40px;
+    height: 40px;
+    margin: 20px;
+    transition: all .5s ease-in-out;
+
+
+    &:hover {
+        transform: scale(1.2);
+    }
+}
