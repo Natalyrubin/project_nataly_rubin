@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="webAdmin.css">
+    <link rel="icon" type="image/png" href="admin.png">
+    <title>WEB Admin Area</title>
+</head>
+
+<body>
+    <h1>BUY BUY SHOP
+        <span style="font-weight: 200; font-size: 1.97rem; display: block;">Administration Area</span>
+    </h1>
+
+
+
+    <div class="container">
+        <h2>LOGIN - Administration Area</h2>
+
+        <div class="loginArea">
+            <label for="UserName">User Name</label>
+            <input type="text" placeholder="Username" id="userName" required>
+            <br>
+            <label for="Password">Password</label>
+            <input type="password" placeholder="****" id="password" required>
+            <br>
+            <div id="checkbox">
+                <input type="checkbox">
+                <label for="rememberMe">Remember me next time</label>
+            </div>
+            <br>
+            <button type="submit" id="loginButton" onclick="login()">Login</button>
+        </div>
+    </div>
+
+    <script src="webAdmin.js"></script>
+</body>
+
+</html>

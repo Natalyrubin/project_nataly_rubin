@@ -1,0 +1,71 @@
+.conteiner {
+    display: block;
+    width: max-content;
+    height: 150px;
+    margin: auto;
+    margin-top: 10vh;
+    background-color: black;
+    border-radius: 10px;
+}
+
+h1 {
+    width: max-content;
+    margin: auto;
+    margin-bottom: 35px;
+    font-size: 45px;
+}
+
+
+p {
+    margin: 10px;
+    font-size: 30px;
+}
+
+
+h1,
+p {
+    font-family: "Stopwatch W00 Regular";
+    color: white;
+}
+
+
+label,
+input,
+button {
+    width: max-content;
+    font-family: "Stopwatch W00 Regular";
+    font-size: 30px;
+    margin: auto;
+}
+
+label,
+input {
+    display: inline-block;
+}
+
+
+.stoper {
+    display: flex;
+}
+
+button {
+    display: block;
+    color: white;
+    background-color: black;
+    margin-top: 3vh;
+    border-radius: 10px;
+
+    &:hover {
+        color: black;
+        background-color: white;
+        cursor: pointer;
+        transition: 1.4s;
+    }
+}
+
+
+.inputArea {
+    width: max-content;
+    padding-top: 8vh;
+    margin: auto;
+}

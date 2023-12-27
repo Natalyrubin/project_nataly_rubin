@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://db.onlinewebfonts.com/c/001f92d59a64338e706b15a97a1f615f?family=Stopwatch+W00+Regular"
+        rel="stylesheet">
+    <link rel="icon" type="image/png" href="LOGO.png">
+    <title>TIK TOK</title>
+</head>
+
+<body>
+
+    <div class="conteiner">
+
+        <h1>Counting down...</h1>
+
+        <div class="stoper">
+            <p>hour:</p>
+            <p class="hour">23</p>
+            <p>minutes:</p>
+            <p class="minutes">59</p>
+            <p>second:</p>
+            <p class="second">60</p>
+        </div>
+
+    </div>
+
+
+    <div class="inputArea">
+        <label for="dateInput">Enter Date:</label>
+        <input type="datetime-local" id="dateInput" required>
+
+        <button onclick="startCountdown()">Start Countdown</button>
+    </div>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

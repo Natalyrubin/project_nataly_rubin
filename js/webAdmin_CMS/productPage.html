@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="productPage.css">
+    <link rel="icon" type="image/png" href="admin.png">
+    <title>Product Area - Admin</title>
+</head>
+
+<body>
+    <h1>BUY BUY SHOP
+        <span style="font-weight: 200; font-size: 1.97rem; display: block;">Administration Area</span>
+    </h1>
+
+    <div class="container">
+        <div id="loader" class="loader"></div>
+
+        <h2>Product Operations</h2>
+
+        <div class="addRollArea">
+            <h3 class="h3RollArea">Add Product</h3>
+            <div class="formArea">
+
+                <label for="brand">Brand</label>
+                <input type="text" id="addBrandValue" required>
+
+                <label for="title">Title</label>
+                <input type="text" id="addTitleValue" required>
+
+                <label for="price">Price</label>
+                <input type="number" id="addPriceValue" required>
+
+                <label for="stock">Stock</label>
+                <input type="number" id="addStockValue" required>
+
+                <button onclick="newProductSaved()" id="addSaveButton">Save</button>
+                <button onclick="closeaddProductArea()" id="addCancelButton">Cancel</button>
+
+            </div>
+        </div>
+
+
+        <div class="updateRollArea">
+            <h3 class="h3RollArea">Update Product</h3>
+            <div class="formArea">
+
+                <label for="id" id="UpdateNotAlowed">ID</label>
+                <label id="idProductForUpdate">dynamic ID</label>
+
+                <label for="brand">Brand</label>
+                <input type="text" id="updateBrandValue" required>
+
+                <label for="title">Title</label>
+                <input type="text" id="updateTitleValue" required>
+
+                <label for="price">Price</label>
+                <input type="number" id="updatePriceValue" required>
+
+                <label for="stock">Stock</label>
+                <input type="number" id="updateStockValue" required>
+
+                <button onclick="updateProduct()" id="updateSaveButton">Save</button>
+                <button onclick="closeUpdateProductArea()" id="updateCancelButton">Cancel</button>
+
+            </div>
+        </div>
+
+        <div class="topArea">
+            <div class="productsHeadline">
+                <h3 id="h3Products">Products</h3>
+                <button onclick="openaddProductArea()" id="openaddProductArea">Add Product</button>
+            </div>
+
+
+            <h4>Products List</h4>
+            <hr>
+
+            <div class="productsTableArea">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>ID</th>
+                            <th>Brand</th>
+                            <th>Title</th>
+                            <th>Price</th>
+                            <th>Stock</th>
+                            <th>Delete</th>
+                            <th>Update</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <!-- dynamic-data-frpom-JS -->
+                    </tbody>
+
+                </table>
+
+            </div>
+
+            <div class="tableArea">
+            </div>
+        </div>
+
+
+
+
+        <script src="productPage.js"></script>
+</body>
+
+</html>

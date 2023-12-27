@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="triviaGame.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Hebrew:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="logo.png">
+    <title>TRIVIA 4 FUN</title>
+</head>
+
+<body>
+    <div class="dashboard">
+        <p id="questionNum">מס' שאלה</p>
+        <p id="totalScore">נקודות שצברת</p>
+    </div>
+
+    <div class="container">
+        <h1 id="question"></h1>
+        <button id="answer1" onclick="userChoose(this.innerText)"></button>
+        <button id="answer2" onclick="userChoose(this.innerText)"></button>
+        <button id="answer3" onclick="userChoose(this.innerText)"></button>
+        <button id="answer4" onclick="userChoose(this.innerText)"></button>
+
+    </div>
+
+
+    <script src="triviaGame.js"></script>
+</body>
+
+
+
+</html>

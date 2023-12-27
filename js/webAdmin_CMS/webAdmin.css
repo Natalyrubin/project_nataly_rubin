@@ -1,0 +1,27 @@
+h1 {
+    margin: 0;
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.container {
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+.loginArea {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 20px;
+}
+
+h2,
+label,
+input,
+button {
+    font-family: 'Titillium Web';
+    font-weight: 400;
+}

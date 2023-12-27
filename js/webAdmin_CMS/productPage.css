@@ -1,0 +1,185 @@
+h1 {
+    margin: 0;
+    font-family: 'Titillium Web';
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+
+.loader {
+    border: 16px solid #f3f3f3;
+    border-top: 16px solid #3498db;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    color: #000000;
+    box-sizing: border-box;
+    animation: spin 2s linear infinite;
+    position: absolute;
+    top: 30%;
+    left: 47.24%;
+    transform: translate(-50%, -50%);
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+h2,
+h3,
+h4,
+label,
+input,
+button,
+p,
+th,
+td {
+    font-family: 'Titillium Web';
+}
+
+h2 {
+    width: max-content;
+    margin: auto;
+    margin-top: 6vh;
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+
+.addRollArea,
+.updateRollArea,
+.topArea {
+    display: block;
+    width: 95%;
+    border: 1px solid black;
+    margin: auto;
+    margin-bottom: 3vh;
+}
+
+.h3RollArea {
+    display: block;
+    width: max-content;
+    margin-left: 1vw;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+
+.formArea {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+label,
+input {
+    width: 40vw;
+    margin-left: 1vw;
+    margin-bottom: 3px;
+    border: 0;
+}
+
+
+input {
+    background-color: rgba(230, 223, 223, 0.616);
+
+    &:hover {
+        background-color: rgba(230, 223, 223, 0.884);
+        border: 0;
+    }
+}
+
+button {
+    margin-top: 5vh;
+    margin-bottom: 3vh;
+    width: 40.4vw;
+    margin-left: 1vw;
+    border: 0;
+    font-size: 1rem;
+    background-color: rgb(230, 223, 223);
+
+    &:hover {
+        background-color: rgba(230, 223, 223, 0.459);
+        border: 0;
+        cursor: pointer;
+    }
+}
+
+label,
+button {
+    font-weight: 600;
+}
+
+.productsHeadline {
+    display: flex;
+    justify-content: space-between;
+    margin: 1vw;
+}
+
+#h3Products {
+    display: block;
+    width: max-content;
+    text-decoration: underline;
+    font-size: 1.5rem;
+}
+
+#openaddProductArea {
+    width: max-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 3vw;
+}
+
+h4 {
+    font-size: 1.3rem;
+    font-weight: 400;
+    width: max-content;
+    margin: auto;
+}
+
+hr {
+    width: 98%;
+}
+
+
+.productsTableArea {
+    width: 95%;
+}
+
+table {
+    width: 100%;
+    margin-left: 1vw;
+    margin-bottom: 5vh;
+}
+
+thead {
+    background-color: rgb(230, 223, 223);
+}
+
+
+th,
+td {
+    text-align: left;
+}
+
+tbody tr:hover {
+    background-color: rgba(211, 211, 211, 0.329);
+}
+
+
+.openUpdateProductAreaButton {
+    background-color: rgba(241, 241, 241, 0.295);
+}
+
+.openUpdateProductAreaButton:hover {
+    cursor: pointer;
+}
+
+.deleteProduct:hover {
+    cursor: pointer;
+}
