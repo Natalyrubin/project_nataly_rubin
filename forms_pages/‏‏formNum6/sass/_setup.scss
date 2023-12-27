@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Heebo:wght@400;700;900&display=swap" rel="stylesheet");
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+@mixin desktop {
+    @media (min-width:1152.1px) {
+        @content;
+    }
+}
+
+@mixin tablet {
+    @media (max-width:1152px) {
+        @content;
+    }
+}
+
+
+img {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
+
+
+h1,
+h2,
+p,
+label,
+input {
+    font-family: 'heebo';
+}

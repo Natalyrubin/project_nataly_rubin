@@ -1,0 +1,299 @@
+@import url("https://fonts.googleapis.com/css2?family=Assistant:wght@400;700&family=Heebo:wght@400;700;900&display=swap" rel="stylesheet");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+img {
+  display: block;
+  width: 30px;
+  height: 30px;
+  margin: auto;
+}
+
+h1,
+h2,
+p,
+label,
+input {
+  font-family: "heebo";
+}
+
+@media (min-width: 1152.1px) {
+  .top {
+    display: flex;
+    width: 100%;
+    height: 450px;
+    background-color: #0EE1E1;
+  }
+  .whatsappDiv {
+    display: flex;
+    width: 55px;
+    height: 55px;
+    background-color: white;
+    border-radius: 50%;
+    margin-top: 3%;
+    margin-left: 3%;
+    justify-content: center;
+  }
+  .headlineArea {
+    width: 85%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(1, 100%);
+    direction: rtl;
+  }
+  .boxImg {
+    margin: auto;
+    margin-right: 15px;
+    width: 200px;
+    height: 200px;
+  }
+  .topText {
+    width: 100%;
+    margin: auto;
+    margin-right: -35%;
+  }
+  h1 {
+    font-weight: 900;
+    font-size: 60px;
+  }
+  p {
+    font-weight: 400;
+    font-size: 16px;
+  }
+}
+@media (max-width: 1152px) {
+  .whatsappImg,
+  .whatsappDiv {
+    display: none;
+  }
+  .top {
+    display: flex;
+    width: 100%;
+    height: -moz-fit-content;
+    height: fit-content;
+    background-color: #0EE1E1;
+  }
+  .headlineArea {
+    direction: rtl;
+    display: block;
+    width: 80%;
+    height: 70%;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 8vh;
+  }
+  .boxImg {
+    display: block;
+    width: 100px;
+    height: 100px;
+    margin-right: 0;
+    margin-bottom: 35px;
+  }
+}
+.boxArea {
+  display: grid;
+  width: 100%;
+  height: 350px;
+  grid-template-columns: repeat(4, 2fr);
+  grid-template-rows: repeat(1, 100%);
+}
+
+.divBox {
+  display: block;
+  width: 280px;
+  height: 240px;
+  background-color: #F8F8F8;
+  margin: auto;
+}
+.divBox img {
+  margin-bottom: 10px;
+  margin-top: 50px;
+}
+.divBox h2 {
+  width: 80%;
+  font-weight: 900;
+  font-size: 30px;
+  color: #0EE1E1;
+  text-align: center;
+  margin: auto;
+}
+.divBox p {
+  width: 80%;
+  font-weight: 400;
+  font-size: 14px;
+  text-align: center;
+  margin: auto;
+}
+
+@media (max-width: 1152px) {
+  .boxArea {
+    display: grid;
+    width: 100%;
+    height: 1150px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(4, 25%);
+  }
+}
+@media (min-width: 1152.1px) {
+  .mapArea {
+    display: grid;
+    width: 100%;
+    height: 700px;
+    grid-template-columns: repeat(2, 2fr);
+    grid-template-rows: repeat(1, 100%);
+  }
+  .imgDiv {
+    display: block;
+    width: 60vw;
+    height: 100%;
+    background-color: #0EE1E1;
+  }
+  .imgDiv img {
+    display: block;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    margin-top: 7%;
+  }
+  .formArea {
+    display: block;
+    background-color: #F0FFFF;
+    width: 100%;
+    height: 100%;
+    direction: rtl;
+  }
+  .formBox {
+    display: block;
+    width: 65%;
+    height: 80%;
+    margin: auto;
+  }
+  .formBox h2 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .formBox p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .formBox input,
+  .formBox textarea {
+    width: 100%;
+    height: 50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #0EE1E1;
+    background-color: #E5EEFF;
+    margin-bottom: 20px;
+  }
+  .formBox #message {
+    height: 100px;
+  }
+  .formBox #submitButtom {
+    background-color: #0EE1E1;
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+@media (max-width: 1152px) {
+  .mapArea {
+    display: block;
+    width: 100%;
+    height: 1100px;
+    direction: rtl;
+    margin-top: 30px;
+  }
+  .formArea {
+    display: block;
+    background-color: #F0FFFF;
+    width: 100%;
+    height: 700px;
+    direction: rtl;
+    padding-top: 10px;
+  }
+  .formBox {
+    display: block;
+    width: 65%;
+    height: 80%;
+    margin: auto;
+  }
+  .formBox h2 {
+    margin-top: 70px;
+    margin-bottom: 10px;
+    font-size: 40px;
+    font-weight: 900;
+  }
+  .formBox p {
+    font-size: 15px;
+    margin-bottom: 30px;
+  }
+  .formBox input,
+  .formBox textarea {
+    width: 100%;
+    height: 50px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 4px solid #0EE1E1;
+    background-color: #E5EEFF;
+    margin-bottom: 20px;
+  }
+  .formBox #message {
+    height: 100px;
+  }
+  .formBox #submitButtom {
+    background-color: #0EE1E1;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .imgDiv {
+    display: flex;
+    width: 100%;
+    height: 400px;
+    background-color: #0EE1E1;
+  }
+  .imgDiv img {
+    display: block;
+    width: 85%;
+    height: 85%;
+    margin: auto;
+    margin-top: auto;
+  }
+}
+.bottom {
+  display: flex;
+  width: 350px;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-around;
+}
+
+.footerDivIcon {
+  display: flex;
+  width: 65px;
+  height: 65px;
+  background-color: #0EE1E1;
+  border-radius: 50%;
+  margin-top: 3%;
+  margin-left: 3%;
+  justify-content: center;
+}
+
+.lineBottom {
+  width: 100%;
+  height: 20px;
+  background-color: #0EE1E1;
+}/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+@media (max-width:575px) {
+
+    #desktopimg,
+    h1,
+    p {
+        display: none;
+    }
+
+    #mobileimg {
+        width: 100%;
+    }
+}
+
+
+
+@media (min-width:576px) {
+    #mobileimg {
+        display: none;
+    }
+}

@@ -1,0 +1,170 @@
+@include desktop {
+
+    .mapArea {
+        display: grid;
+        width: 100%;
+        height: 700px;
+        grid-template-columns: repeat(2, 2fr);
+        grid-template-rows: repeat(1, 100%);
+
+    }
+
+
+    .imgDiv {
+        display: block;
+        width: 60vw;
+        height: 100%;
+        background-color: #0EE1E1;
+
+        img {
+            display: block;
+            width: 85%;
+            height: 85%;
+            margin: auto;
+            margin-top: 7%;
+        }
+    }
+
+
+    .formArea {
+        display: block;
+        background-color: #F0FFFF;
+        width: 100%;
+        height: 100%;
+        direction: rtl;
+    }
+
+    .formBox {
+        display: block;
+        width: 65%;
+        height: 80%;
+        margin: auto;
+
+        h2 {
+            margin-top: 70px;
+            margin-bottom: 10px;
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+
+        input,
+        textarea {
+            width: 100%;
+            height: 50px;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: 4px solid #0EE1E1;
+            background-color: #E5EEFF;
+            margin-bottom: 20px;
+        }
+
+        #message {
+            height: 100px;
+        }
+
+
+        #submitButtom {
+            background-color: #0EE1E1;
+            font-size: 20px;
+            font-weight: 700;
+        }
+
+    }
+
+}
+
+
+@include tablet {
+
+    .mapArea {
+        display: block;
+        width: 100%;
+        height: 1100px;
+        direction: rtl;
+        margin-top: 30px;
+    }
+
+
+    .formArea {
+        display: block;
+        background-color: #F0FFFF;
+        width: 100%;
+        height: 700px;
+        direction: rtl;
+        padding-top: 10px;
+    }
+
+
+    .formBox {
+        display: block;
+        width: 65%;
+        height: 80%;
+        margin: auto;
+
+
+        h2 {
+            margin-top: 70px;
+            margin-bottom: 10px;
+            font-size: 40px;
+            font-weight: 900;
+        }
+
+        p {
+            font-size: 15px;
+            margin-bottom: 30px;
+        }
+
+
+        input,
+        textarea {
+            width: 100%;
+            height: 50px;
+            border-top: none;
+            border-right: none;
+            border-left: none;
+            border-bottom: 4px solid #0EE1E1;
+            background-color: #E5EEFF;
+            margin-bottom: 20px;
+        }
+
+        #message {
+            height: 100px;
+        }
+
+
+        #submitButtom {
+            background-color: #0EE1E1;
+            font-size: 20px;
+            font-weight: 700;
+        }
+    }
+
+    .imgDiv {
+        display: flex;
+        width: 100%;
+        height: 400px;
+        background-color: #0EE1E1;
+
+        img {
+            display: block;
+            width: 85%;
+            height: 85%;
+            margin: auto;
+            margin-top: auto;
+        }
+
+
+    }
+
+
+
+
+
+}
