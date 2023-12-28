@@ -68,7 +68,7 @@ const ifSame = () => {
 
         if (firstChoicePath !== secondChoicePath) {
             console.log('try again');
-            setTimeout(flipBack, 500);
+            setTimeout(flipBack, 400);
         }
     }
 }
