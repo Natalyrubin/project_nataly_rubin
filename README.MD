@@ -24,9 +24,9 @@ The JS project showcases a variety of responsive, functional and interactive pag
 
 
 
-### Project Descriptions
+## Project Descriptions
 
-# Portfolio main page:
+### Portfolio main page:
 A portfolio showcase page with navigation bar for easy navigate inside the page.
 the portfolio divide to several areas: 
 Presenting myself and my work experience with CV downloading button, 
@@ -34,13 +34,13 @@ displaying various of my projects in the gallery and finally contact area.
 There you can contact me directly by phone/mail/Whatsapp or enter my Linkedin by click on the logos.
 
 ## Landing Pages
-# Landing Pages: 1,2,3,4: 
+### Landing Pages: 1,2,3,4: 
 Landing pages presenting single products. It demonstrates responsive design using css for styling.
  
-# Landing Page 5:
+### Landing Page 5:
 Landing pages that use Bootstrap's grid system for layout Bootstrap components for forms and buttons.
 
-# Landing Page: 6: 
+### Landing Page: 6: 
 Landing pages that use Custom Sass styling for efficient styling.
 
 
