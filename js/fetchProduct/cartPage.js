@@ -94,7 +94,7 @@ const saveUserItemCart = () => {
     window.location.reload();
 
 
-    if (savedCart.length === 1) {
+    if (savedCart.length === 1 || savedCart.length === 0) {
         localStorage.removeItem('savedCart');
     }
 }
