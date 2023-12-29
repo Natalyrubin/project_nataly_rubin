@@ -109,11 +109,6 @@ function rateGame() {
 
     let html = `
     <h1 style="margin-top: 15%;"> תודה ששיתפת אותנו <br> נתראה במשחק הבא </h1>
-    <a href="/html/index.html" style="text-decoration: none;">
-        <button>חזרה לעמוד הבית</button>
-    </a>
-
-
     `;
     container.innerHTML = html;
 }
