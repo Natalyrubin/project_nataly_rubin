@@ -54,6 +54,8 @@ The six projects demonstrate the use of various functions, data manipulation, CR
 3. Rock, Paper, Scissors: Experience the classic game in a digital format, playing against the computer to outsmart its choices.
 4. Countdown Timer: Manage your time effectively with a unique countdown timer, visually displaying the remaining time.
 5. E-Commerce Website with Admin Panel: Explore a fully functional online store, complete with product listings, a shopping cart, and an admin panel for easy management.
+   This project consists of two distinct projects that I merged together. Conceptually, it makes a lot of sense since every e-commerce website has a behind-the-scenes admin managing the site. Therefore, one project is dedicated to the buyer's 
+   experience and the second project is designed for the site admin experience.
 6. Memory Game: Challenge your memory with an interactive game, flipping cards to find matching pairs and testing your concentration in a visually appealing setting.
 
 
